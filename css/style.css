@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster:regular&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Cardo:regular,italic,700&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Proxima Nova Rg";
+	src: url("../fonts/ProximaNova-RegularIt.woff2") format("woff2"),
+		url("../fonts/ProximaNova-RegularIt.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Proxima Nova Rg";
+	src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Proxima Nova Rg";
+	src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+		url("../fonts/ProximaNova-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 20px;
+}
+body {
+	line-height: 1.25;
+	font-family: "Proxima Nova Rg", sans-serif;
+}
+
+.title {
+	color: #ff0000;
+	font-family: "lobster", fantasy;
+	font-size: 50px;
+}
+
+.img {
+	text-align: center;
+}
+
+.title2 {
+	font-family: "pacifico", sans-serif;
+	font-size: 35px;
+	line-height: 3;
+	color: #ff0095;
+}
+
+.text-center {
+	font-family: "Proxima Nova Rg", sans-serif;
+	line-height: 2;
+	text-align: center;
+}
+
+.desk {
+	font-family: "Proxima Nova Rg", sans-serif;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.link.list {
+	font-family: "Proxima Nova Rg", sans-serif;
+	font-weight: 700;
+	line-height: 2;
+	font-size: 25px;
+	color: #a52a2a;
+}
+
+.subtitle {
+	font-family: "lobster", fantasy;
+	font-weight: 400;
+	font-size: 30px;
+	font-style: oblique;
+	text-shadow: 2px 8px 5px #ca1919cc;
+	text-indent: 30px;
+	line-height: 2;
+}
+
+.upper {
+	font-family: "cardo", serif;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.red {
+	letter-spacing: 3px;
+	color: #dc143c;
+}
+
+.blue {
+	word-spacing: 10px;
+	color: #008b8b;
+}
+
+.orange {
+	text-decoration: line-through;
+	color: #ff8c00;
+}
+
+.violet {
+	font-style: italic;
+	color: #9400d3;
+}
+
+.pink {
+	font-weight: 700;
+	color: #ff1493;
+}
+
+.link {
+	color: #0000ff;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+footer {
+	font-family: "cardo", serif;
+	font-weight: 700;
+}
+
+p {
+	text-indent: 20px;
+}
